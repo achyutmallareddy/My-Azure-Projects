@@ -8,7 +8,7 @@ trigger:
 
 pool:
   name: local  # Using the "local" agent pool
-  demands: Agent.Version -equals 2.163.1
+  demands: Agent.Version -gtVersion 2.163.1
 
 steps:
 - task: AzureResourceManagerTemplateDeployment@3

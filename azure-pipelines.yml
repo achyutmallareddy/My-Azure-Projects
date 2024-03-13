@@ -20,6 +20,6 @@ steps:
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/achyutmallareddy/My-Azure-Projects/main/ARMPipeline-repo/create_web_app/azuredeploy.json'
-    overrideParameters: '-projectName myarmpipeline'
+    overrideParameters: '-projectName armdemo'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'

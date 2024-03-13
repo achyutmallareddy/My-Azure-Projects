@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: local  # Using the "local" agent pool
 
 steps:
 - task: AzureResourceManagerTemplateDeployment@3
